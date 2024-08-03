@@ -9,18 +9,18 @@ class ImageOCRApp:
         self.master = master
         self.master.title("OCR Tool")
 
-        # window
+        
         self.master.geometry("1200x800")
         self.master.resizable(False, False)
 
         pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-        # UI 
+        
         self.image_label = tk.Label(self.master)
         self.text_display = tk.Text(self.master, wrap="word", height=50, width=120)
         self.select_image_button = tk.Button(self.master, text="Select Image", command=self.select_image_ocr)
 
-        # UI 
+        
         self.image_label.pack(pady=10)
         self.select_image_button.pack(pady=5)
         self.text_display.pack(side=tk.LEFT, pady=10)
