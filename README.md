@@ -40,4 +40,4 @@ python OCR.py
 
 ## Note
 
-This tool uses Tesseract OCR which needs to be installed and the path to the `tesseract.exe` should be correctly specified in the script. In this script, it is specified as `C:\Program Files\Tesseract-OCR\tesseract.exe`. Please update this path if your Tesseract OCR installation is in a different location.
+This tool uses Tesseract OCR which needs to be installed and the path to the `tesseract.exe` should be correctly specified in the script. In this script, it is specified as `C:\Program Files\Tesseract-OCR\tesseract.exe`. Please update this path if your Tesseract OCR installation is in a different location. (only needed if running from source code)
